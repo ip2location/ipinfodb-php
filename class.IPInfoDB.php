@@ -6,7 +6,7 @@ class IPInfoDB
 
 	public function __construct($apiKey)
 	{
-		if (!preg_match($apiKey)) {
+		if (!preg_match('/^[0-9a-z]{64}$/', $apiKey)) {
 			throw exception('Invalid IPInfoDB API key.');
 		}
 
@@ -19,6 +19,7 @@ class IPInfoDB
 
 		if (($json = json_decode($response, true)) === null) {
 			$json['statusCode'] = 'ERROR';
+
 			return false;
 		}
 
@@ -33,6 +34,7 @@ class IPInfoDB
 
 		if (($json = json_decode($response, true)) === null) {
 			$json['statusCode'] = 'ERROR';
+
 			return false;
 		}
 
