@@ -1,4 +1,5 @@
-
+[![Latest Stable Version](https://img.shields.io/packagist/v/ip2location/ipinfodb-php.svg)](https://packagist.org/packages/ip2location/ipinfodb-php)
+[![Total Downloads](https://img.shields.io/packagist/dt/ip2location/ipinfodb-php.svg?style=flat-square)](https://packagist.org/packages/ip2location/ipinfodb-php)  
 
 IPInfoDB PHP
 ==============
@@ -13,7 +14,7 @@ This library can be used in many types of projects such as:
  - Page redirection according to country
  - Geotargeting in advertisement
 
-IPInfoDB free API is using IP2Location LITE version.  IP2Location Commercial version provides higher accuracy is available at https://www.ip2location.com/web-service with no rate limit.
+IPInfoDB free API uses the geolocation data from [IP2Location LITE database](https://lite.ip2location.com).  IP2Location Commercial version provides higher accuracy is available at https://www.ip2location.com/web-service with no rate limit.
 
 ## Methods
 Below are the methods supported in this class.
