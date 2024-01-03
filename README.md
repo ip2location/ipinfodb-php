@@ -44,4 +44,4 @@ There is a rate limit of 2 queries per second.
 Copyright
 =========
 
-Copyright (C) 2021 by IPInfoDB.com, support@ipinfodb.com
+Copyright (C) 2021 - 2024 by IPInfoDB.com, support@ipinfodb.com
